@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+ <event name="XHappend" repeat="3">
+  <simple name="name" type="string" />
+  <simple name="id" type="int"/>
+  <simple name="now" type="now" />
+   <complex name="numbers" repeat="2">
+     <simple name="number" min="10" max="20" type="int" />
+   </complex>
+ </event>
+</events>

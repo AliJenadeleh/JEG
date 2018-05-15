@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<events>
+ <event name="register" repeat="12">
+  <simple name="username" type="string"/>
+  <simple name="userid" type="int" max="2000000" min ="100"/>
+  <simple name="gender" type="bool"/>
+  <complex name="numbers" repeat="10">
+   <simple name="degree" type="int" max="20" min="0" />
+  </complex>
+ </event>
+</events>

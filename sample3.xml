@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<events>
+<event name="enter" repeat="10">
+  <simple name="gender" type="bool" />
+  <simple name="hight" type="int" min="65" max="200" />
+  <simple name="time" type="time" />
+  <complex name="books" repeat="10">
+   <simple name="weight" type="int" max="200" />
+  </complex>
+ </event>
+</events>

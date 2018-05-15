@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+ <event name="school" repeat="5">
+  <simple name="StudentName" type="string"/>
+  <simple name="opendor" type="bool" />
+  <simple name="closedor" type="bool" />
+  <simple name="date" type="date" />
+  <simple name="time" type="time" />
+  <complex name="numbers" repeat="12">
+   <simple name="number" type="int" min="0" max="20" />
+  </complex>
+ </event>
+
+ <event name="degree" repeat="10">
+   <simple name="id" type="int"/>
+   <complex name="avg" repeat="3">
+    <simple name="session" type="int" min="10" max="20"/>
+   </complex>
+ </event>
+</events>
